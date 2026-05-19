@@ -9,7 +9,8 @@
 ## Decisions made
 
 - Category 1 remains the template for future categories.
-- Fixture-only success is not enough; enabled sources require live fetch, extraction, normalization, and router bridge compatibility.
+- Fixture-only success is not enough; enabled sources require live fetch,
+  extraction, normalization, and router bridge compatibility.
 - Long-running category work should run with explicit checkpoints and verification between phases.
 
 ## Files created or changed

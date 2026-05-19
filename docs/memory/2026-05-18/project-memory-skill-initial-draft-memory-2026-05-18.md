@@ -3,14 +3,17 @@
 ## Session summary
 
 - Created the first open-source-ready draft of the `project-memory` skill repo.
-- The skill teaches agents to read recent `docs/memory/` files before substantial work and write concise handoff memory after meaningful work.
-- The design intentionally stays small: one path convention, one template, a few examples, and safety rules.
+- The skill teaches agents to read recent `docs/memory/` files before
+  substantial work and write concise handoff memory after meaningful work.
+- The design intentionally stays small: one path convention, one template,
+  a few examples, and safety rules.
 
 ## Decisions made
 
 - Skill name: `project-memory`.
 - Recommended public repo name: `project-memory-skill`.
-- Memory path convention: `docs/memory/YYYY-MM-DD/<project-or-task>-memory-YYYY-MM-DD.md`.
+- Memory path convention:
+  `docs/memory/YYYY-MM-DD/descriptive-slug-memory-YYYY-MM-DD.md`.
 - The `SKILL.md` stays lean and procedural; README/examples explain the public repo for humans.
 - No scripts are included in v1 because this convention should be drop-in and low ceremony.
 
@@ -39,7 +42,8 @@
 ```bash
 python3 /Users/cobibean/.codex/skills/.system/skill-creator/scripts/quick_validate.py .
 rg -n "API|token|secret|password|PHI|private|sk-|BEGIN" .
-wc -l SKILL.md README.md templates/memory-template.md examples/*.md docs/launch-checklist.md agents/openai.yaml LICENSE
+wc -l SKILL.md README.md templates/memory-template.md examples/*.md \
+  docs/launch-checklist.md agents/openai.yaml LICENSE
 ```
 
 Verification result:
@@ -50,7 +54,8 @@ Verification result:
 ## Known constraints
 
 - The repo has not been initialized with git or published to GitHub yet.
-- `SKILL.md` frontmatter cannot contain angle brackets, so the trigger description uses a plain path example.
+- `SKILL.md` frontmatter cannot contain angle brackets, so the trigger
+  description uses a plain path example.
 - The skill should not grow into a structured memory database, transcript log, or automation system.
 
 ## Open questions

@@ -3,7 +3,8 @@
 ## Session summary
 
 - Added more visual character to the homepage while preserving the calm, professional tone.
-- Chose one approved illustration direction and replaced a generic centered hero with a more editorial layout.
+- Chose one approved illustration direction and replaced a generic centered
+  hero with a more editorial layout.
 
 ## Decisions made
 

@@ -3,7 +3,8 @@
 ## Session summary
 
 - Reviewed the v0 billing and entitlement flow before implementation.
-- Confirmed the product should collect a setup fee before provisioning and only keep hosting active after successful deployment.
+- Confirmed the product should collect a setup fee before provisioning and only
+  keep hosting active after successful deployment.
 - No app code was scaffolded in this session.
 
 ## Decisions made

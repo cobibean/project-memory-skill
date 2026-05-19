@@ -1,6 +1,13 @@
 ---
 name: project-memory
-description: Use this skill when starting or finishing substantial project work that would benefit from durable continuity across Codex, Claude, or other agent sessions. It teaches agents to read recent project memory before work and write concise Markdown handoff memory after meaningful work under docs/memory/YYYY-MM-DD/project-or-task-memory-YYYY-MM-DD.md, including decisions, changed files, verification, constraints, open questions, and next actions while avoiding secrets and sensitive details.
+description: >-
+  Use this skill when starting or finishing substantial project work that would
+  benefit from durable continuity across Codex, Claude, or other agent sessions.
+  It teaches agents to read recent project memory before work and write concise
+  Markdown handoff memory after meaningful work under
+  docs/memory/YYYY-MM-DD/descriptive-slug-memory-YYYY-MM-DD.md, including
+  decisions, changed files, verification, constraints, open questions, and next
+  actions while avoiding secrets and sensitive details.
 ---
 
 # Project Memory
@@ -10,10 +17,11 @@ Use project memory to preserve durable project context for future agents and hum
 Project memory lives at:
 
 ```txt
-docs/memory/YYYY-MM-DD/<project-or-task>-memory-YYYY-MM-DD.md
+docs/memory/YYYY-MM-DD/descriptive-slug-memory-YYYY-MM-DD.md
 ```
 
-Memory is append-only by default. Create a new file for new work. Do not overwrite, delete, or rewrite prior memory unless the user explicitly asks.
+Memory is append-only by default. Create a new file for new work.
+Do not overwrite, delete, or rewrite prior memory unless the user explicitly asks.
 
 ## Before Work
 
@@ -35,7 +43,8 @@ If no memory exists, continue normally. Do not create memory at the start unless
 
 ## After Meaningful Work
 
-Create a new memory file when the session produced context future agents would be annoyed to rediscover.
+Create a new memory file when the session produced context future agents would be
+annoyed to rediscover.
 
 Use today's local date and create the dated folder if needed:
 
@@ -48,6 +57,9 @@ Use a lowercase descriptive slug:
 ```txt
 docs/memory/2026-05-18/auth-flow-memory-2026-05-18.md
 ```
+
+Do not write memory for tiny edits, quick answers, routine formatting, or work
+that leaves no durable decisions, constraints, verification, or next actions.
 
 ## What To Capture
 
@@ -73,7 +85,8 @@ Do not store:
 - every routine command
 - speculation that will not help the next agent
 
-Mention that a secret was configured or verified without recording the secret value.
+Mention that a secret was configured or verified without recording the secret
+value.
 
 ## Memory Template
 
@@ -124,5 +137,7 @@ Avoid:
 - Never overwrite prior memory unless explicitly asked.
 - If existing memory must be amended, preserve prior content and add a dated note.
 - Redact sensitive values.
-- If old memory conflicts with current source-of-truth docs, trust the newer source of truth and mention the conflict.
-- If work is interrupted, write current status, exact resume instructions, and known verification state.
+- If old memory conflicts with current source-of-truth docs, trust the newer
+  source of truth and mention the conflict.
+- If work is interrupted, write current status, exact resume instructions, and
+  known verification state.

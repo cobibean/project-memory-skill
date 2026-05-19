@@ -50,4 +50,5 @@ git push origin v0.1.0
 docs/memory/YYYY-MM-DD/project-memory-skill-launch-memory-YYYY-MM-DD.md
 ```
 
-- Capture what shipped, any naming decisions, validation performed, and recommended next improvements.
+- Capture what shipped, any naming decisions, validation performed, and
+  recommended next improvements.
