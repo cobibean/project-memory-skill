@@ -21,8 +21,10 @@
 - `agents/openai.yaml`
 - `examples/agent-workspace-memory.md`
 - `examples/saas-product-memory.md`
-- `docs/memory/2026-05-18/project-memory-skill-initial-draft-memory-2026-05-18.md`
-- `docs/memory/2026-05-18/project-memory-skill-polish-cleanup-memory-2026-05-18.md`
+- `docs/memory/2026-05-18/`
+  `project-memory-skill-initial-draft-memory-2026-05-18.md`
+- `docs/memory/2026-05-18/`
+  `project-memory-skill-polish-cleanup-memory-2026-05-18.md`
 
 ## Commands and verification
 
@@ -30,7 +32,8 @@
 awk 'length($0)>120 {print FILENAME ":" FNR ":" length($0) ":" $0}' \
   README.md SKILL.md docs/*.md docs/memory/2026-05-18/*.md \
   examples/*.md templates/*.md agents/openai.yaml
-python3 /Users/cobibean/.codex/skills/.system/skill-creator/scripts/quick_validate.py .
+python3 /Users/cobibean/.codex/skills/.system/skill-creator/scripts/\
+quick_validate.py .
 rg -n "descriptive-slug-memory-YYYY-MM-DD" .
 ```
 

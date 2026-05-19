@@ -37,7 +37,8 @@ rg -n "subscription|entitlement|refund|admin_review" docs
 
 ## Open questions
 
-- Should admin review be represented as a deployment state, billing state, or both?
+- Should admin review be represented as a deployment state, billing state, or
+  both?
 
 ## Recommended next work
 

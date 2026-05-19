@@ -12,7 +12,8 @@ description: >-
 
 # Project Memory
 
-Use project memory to preserve durable project context for future agents and humans.
+Use project memory to preserve durable project context for future agents and
+humans.
 
 Project memory lives at:
 
@@ -21,7 +22,8 @@ docs/memory/YYYY-MM-DD/descriptive-slug-memory-YYYY-MM-DD.md
 ```
 
 Memory is append-only by default. Create a new file for new work.
-Do not overwrite, delete, or rewrite prior memory unless the user explicitly asks.
+Do not overwrite, delete, or rewrite prior memory unless the user explicitly
+asks.
 
 ## Before Work
 
@@ -45,8 +47,8 @@ Do not create memory at the start unless the user asks.
 
 ## After Meaningful Work
 
-Create a new memory file when the session produced context future agents would be
-annoyed to rediscover.
+Create a new memory file when the session produced context future agents would
+be annoyed to rediscover.
 
 Use today's local date and create the dated folder if needed:
 
@@ -137,7 +139,8 @@ Avoid:
 
 - Follow stricter local repo instructions first.
 - Never overwrite prior memory unless explicitly asked.
-- If existing memory must be amended, preserve prior content and add a dated note.
+- If existing memory must be amended, preserve prior content and add a dated
+  note.
 - Redact sensitive values.
 - If old memory conflicts with current source-of-truth docs, trust the newer
   source of truth and mention the conflict.

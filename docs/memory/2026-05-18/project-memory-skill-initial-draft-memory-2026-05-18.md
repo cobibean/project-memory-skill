@@ -31,18 +31,21 @@
 - `examples/design-pass-memory.md`
 - `examples/agent-workspace-memory.md`
 - `docs/launch-checklist.md`
-- `docs/memory/2026-05-18/project-memory-skill-initial-draft-memory-2026-05-18.md`
+- `docs/memory/2026-05-18/`
+  `project-memory-skill-initial-draft-memory-2026-05-18.md`
 
 ## Source-of-truth docs
 
 - `SKILL.md` is the source of truth for agent behavior.
-- `README.md` is the source of truth for public repo positioning and installation.
+- `README.md` is the source of truth for public repo positioning and
+  installation.
 - `templates/memory-template.md` is the copyable memory file shape.
 
 ## Commands and verification
 
 ```bash
-python3 /Users/cobibean/.codex/skills/.system/skill-creator/scripts/quick_validate.py .
+python3 /Users/cobibean/.codex/skills/.system/skill-creator/scripts/\
+quick_validate.py .
 rg -n "API|token|secret|password|PHI|private|sk-|BEGIN" .
 wc -l SKILL.md README.md templates/memory-template.md examples/*.md \
   docs/launch-checklist.md agents/openai.yaml LICENSE
@@ -51,7 +54,8 @@ wc -l SKILL.md README.md templates/memory-template.md examples/*.md \
 Verification result:
 
 - Skill validation passed.
-- Sensitive-term scan only found intentional safety guidance and example warnings.
+- Sensitive-term scan only found intentional safety guidance and example
+  warnings.
 
 ## Known constraints
 

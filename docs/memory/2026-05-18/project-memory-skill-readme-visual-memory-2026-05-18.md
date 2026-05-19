@@ -19,7 +19,8 @@
 
 - `README.md`
 - `assets/project-memory-skill-social-preview.png`
-- `docs/memory/2026-05-18/project-memory-skill-readme-visual-memory-2026-05-18.md`
+- `docs/memory/2026-05-18/`
+  `project-memory-skill-readme-visual-memory-2026-05-18.md`
 
 ## Commands and verification
 

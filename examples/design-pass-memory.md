@@ -10,7 +10,8 @@
 ## Decisions made
 
 - Desktop hero should be left-aligned with a right-side illustration.
-- Mobile should hide the illustration for now until a mobile-specific crop is approved.
+- Mobile should hide the illustration for now until a mobile-specific crop is
+  approved.
 - The rose accent is approved as the emotional accent color.
 - Temporary design-review routes are useful locally but should not ship as
   production routes.

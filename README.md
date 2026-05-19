@@ -1,6 +1,8 @@
 # Project Memory Skill
 
-![Project Memory Skill visual overview](assets/project-memory-skill-social-preview.png)
+![Project Memory Skill visual overview][preview]
+
+[preview]: assets/project-memory-skill-social-preview.png
 
 A tiny agent skill for durable project memory.
 
@@ -76,7 +78,8 @@ After meaningful work, create a new file:
 docs/memory/2026-05-18/runtime-contract-memory-2026-05-18.md
 ```
 
-Keep it concise. Capture what the next agent should know, not everything that happened.
+Keep it concise. Capture what the next agent should know, not everything that
+happened.
 
 Do not write memory for tiny edits, quick answers, or routine work with no
 durable decisions, constraints, verification, or next actions.

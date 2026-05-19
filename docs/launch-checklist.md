@@ -6,7 +6,8 @@
 - Add `SKILL.md`, `README.md`, `LICENSE`, `templates/`, `examples/`,
   `docs/`, and `agents/`.
 - Confirm `SKILL.md` frontmatter has only `name` and `description`.
-- Confirm examples contain no secrets, credentials, PHI, or private client details.
+- Confirm examples contain no secrets, credentials, PHI, or private client
+  details.
 - Add repository topics:
   - `agents`
   - `codex`

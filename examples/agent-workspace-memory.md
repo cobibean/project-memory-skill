@@ -2,8 +2,10 @@
 
 ## Session summary
 
-- Gathered context to resume signal-ingestion category work after a context reset.
-- Verified the current category 1 baseline and identified the remaining category work.
+- Gathered context to resume signal-ingestion category work after a context
+  reset.
+- Verified the current category 1 baseline and identified the remaining
+  category work.
 - No implementation was started because explicit approval is still required.
 
 ## Decisions made
@@ -29,7 +31,8 @@
 
 ```bash
 python3 -m tools.signal_ingestion.cli doctor
-python3 -m tools.signal_ingestion.cli list-sources category_01_model_providers | wc -l
+python3 -m tools.signal_ingestion.cli list-sources \
+  category_01_model_providers | wc -l
 python3 -m pytest tests/test_signal_router.py tests/signal_ingestion -q
 ```
 
@@ -42,7 +45,8 @@ Observed verification:
 ## Known constraints
 
 - Do not begin implementation until the user explicitly approves.
-- Run `git status --short` before touching code because unrelated dirty files may exist.
+- Run `git status --short` before touching code because unrelated dirty files
+  may exist.
 - Do not store credentials or private API results in memory.
 
 ## Open questions
