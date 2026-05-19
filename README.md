@@ -1,5 +1,7 @@
 # Project Memory Skill
 
+![Project Memory Skill visual overview](assets/project-memory-skill-social-preview.png)
+
 A tiny agent skill for durable project memory.
 
 Agents read recent memory before substantial work and write a short handoff note afterward under:
