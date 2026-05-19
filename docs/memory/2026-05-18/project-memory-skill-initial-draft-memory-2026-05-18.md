@@ -14,8 +14,10 @@
 - Recommended public repo name: `project-memory-skill`.
 - Memory path convention:
   `docs/memory/YYYY-MM-DD/descriptive-slug-memory-YYYY-MM-DD.md`.
-- The `SKILL.md` stays lean and procedural; README/examples explain the public repo for humans.
-- No scripts are included in v1 because this convention should be drop-in and low ceremony.
+- The `SKILL.md` stays lean and procedural; README/examples explain the public
+  repo for humans.
+- No scripts are included in v1 because this convention should be drop-in and
+  low ceremony.
 
 ## Files created or changed
 
@@ -56,11 +58,13 @@ Verification result:
 - The repo has not been initialized with git or published to GitHub yet.
 - `SKILL.md` frontmatter cannot contain angle brackets, so the trigger
   description uses a plain path example.
-- The skill should not grow into a structured memory database, transcript log, or automation system.
+- The skill should not grow into a structured memory database, transcript log,
+  or automation system.
 
 ## Open questions
 
-- Whether to publish under `project-memory-skill`, `agent-project-memory`, or another name.
+- Whether to publish under `project-memory-skill`, `agent-project-memory`, or
+  another name.
 - Whether to add screenshots or keep the repo text-only.
 
 ## Recommended next work

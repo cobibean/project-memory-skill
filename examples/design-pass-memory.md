@@ -2,7 +2,8 @@
 
 ## Session summary
 
-- Added more visual character to the homepage while preserving the calm, professional tone.
+- Added more visual character to the homepage while preserving the calm,
+  professional tone.
 - Chose one approved illustration direction and replaced a generic centered
   hero with a more editorial layout.
 
@@ -11,7 +12,8 @@
 - Desktop hero should be left-aligned with a right-side illustration.
 - Mobile should hide the illustration for now until a mobile-specific crop is approved.
 - The rose accent is approved as the emotional accent color.
-- Temporary design-review routes are useful locally but should not ship as production routes.
+- Temporary design-review routes are useful locally but should not ship as
+  production routes.
 
 ## Files created or changed
 

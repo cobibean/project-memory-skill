@@ -36,10 +36,12 @@ find docs/memory -type f -name '*.md' | sort | tail -10
 ```
 
 4. Read the most recent relevant memory files.
-5. Read any source-of-truth docs referenced by those files when they matter for the task.
+5. Read any source-of-truth docs referenced by those files when they matter for
+   the task.
 6. Briefly summarize the relevant context before acting.
 
-If no memory exists, continue normally. Do not create memory at the start unless the user asks.
+If no memory exists, continue normally.
+Do not create memory at the start unless the user asks.
 
 ## After Meaningful Work
 

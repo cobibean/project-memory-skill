@@ -3,7 +3,8 @@
 ## Repo Setup
 
 - Choose repo name: `project-memory-skill` is the recommended default.
-- Add `SKILL.md`, `README.md`, `LICENSE`, `templates/`, `examples/`, `docs/`, and `agents/`.
+- Add `SKILL.md`, `README.md`, `LICENSE`, `templates/`, `examples/`,
+  `docs/`, and `agents/`.
 - Confirm `SKILL.md` frontmatter has only `name` and `description`.
 - Confirm examples contain no secrets, credentials, PHI, or private client details.
 - Add repository topics:
@@ -23,7 +24,8 @@ python /path/to/quick_validate.py .
 ```
 
 - Read the README as a first-time user.
-- Read `SKILL.md` as an agent would: confirm the workflow is clear without opening examples.
+- Read `SKILL.md` as an agent would: confirm the workflow is clear without
+  opening examples.
 - Install locally and use it once in a real repo.
 
 ## First Release

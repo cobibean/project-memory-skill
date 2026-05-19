@@ -11,7 +11,8 @@
 
 - Failed deployments should not leave a monthly subscription active.
 - Admin review is preferred over automatic refund logic for edge cases in v0.
-- Billing state should be treated as a server-side authorization concern, not only a UI state.
+- Billing state should be treated as a server-side authorization concern, not
+  only a UI state.
 
 ## Files created or changed
 
@@ -40,4 +41,5 @@ rg -n "subscription|entitlement|refund|admin_review" docs
 
 ## Recommended next work
 
-- Align database schema with the billing state machine before implementing Stripe webhooks.
+- Align database schema with the billing state machine before implementing
+  Stripe webhooks.

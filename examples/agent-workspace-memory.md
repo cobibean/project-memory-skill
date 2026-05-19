@@ -11,7 +11,8 @@
 - Category 1 remains the template for future categories.
 - Fixture-only success is not enough; enabled sources require live fetch,
   extraction, normalization, and router bridge compatibility.
-- Long-running category work should run with explicit checkpoints and verification between phases.
+- Long-running category work should run with explicit checkpoints and
+  verification between phases.
 
 ## Files created or changed
 
@@ -52,4 +53,5 @@ Observed verification:
 
 - Read this memory and the category template.
 - Confirm approval.
-- Start the next category using category 1 as the implementation and verification pattern.
+- Start the next category using category 1 as the implementation and
+  verification pattern.

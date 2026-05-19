@@ -1,7 +1,7 @@
 interface:
   display_name: "Project Memory"
   short_description: "Durable Markdown handoffs for agent work"
-  default_prompt: >
+  default_prompt: >-
     Use $project-memory to read recent project memory before substantial work
     and write a concise handoff afterward.
 
